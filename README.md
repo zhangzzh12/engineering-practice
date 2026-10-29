@@ -45,15 +45,15 @@ docs/slides/            开题答辩 PPT
 
 ## 实现顺序
 
-| 步骤 | 模块 | 完成标志 |
-|---|---|---|
-| 1 | `core/schema.py`、`core/text.py` | 契约稳定，分词与分句单测通过 |
-| 2 | `retrieval/arxiv_client.py`、`ingest.py` | 能取回 N 篇论文并切出摘要 span |
-| 3 | `agents/planner.py`、`analyst.py` | 每篇论文产出带引文的阅读卡片 |
-| 4 | `agents/comparator.py` | 聚出方法族、演进边与冲突 |
-| 5 | `agents/writer.py`、`verifier.py` | 正文每句挂 span，坏句被拦下或修复 |
-| 6 | `orchestration/graph.py`、`orchestrator.py` | 端到端跑通并落盘产物 |
-| 7 | `storage/store.py`、`web/`、`evaluation/` | 历史可查、网页可用、指标可算 |
+| 步骤 | 模块 |
+|---|---|
+| 1 | `core/schema.py`、`core/text.py` |
+| 2 | `retrieval/arxiv_client.py`、`ingest.py` |
+| 3 | `agents/planner.py`、`analyst.py` |
+| 4 | `agents/comparator.py` |
+| 5 | `agents/writer.py`、`verifier.py` |
+| 6 | `orchestration/graph.py`、`orchestrator.py` |
+| 7 | `storage/store.py`、`web/`、`evaluation/` |
 
 ## 接口约定
 
