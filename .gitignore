@@ -1,0 +1,10 @@
+# vendored wheels (installed by tools/fetch_deps.py)
+.deps/
+# pip scratch dir
+.tmp/
+# run artifacts
+out/
+# arXiv response cache
+data/cache/
+__pycache__/
+*.pyc
