@@ -63,27 +63,6 @@ docs/slides/            开题答辩 PPT
 - **修复优先于删除**：校验不通过时先尝试同篇论文内重挂证据，再决定丢弃。
 - **可离线**：没有模型服务时走启发式路径，两条路径共用同一套契约与校验规则。
 
-## 运行
-
-骨架阶段只有自检用例可跑：
-
-```powershell
-py -m pytest
-```
-
-实现到第 6 步后，预期用法：
-
-```powershell
-py -m review_agent.cli "retrieval augmented generation" --papers 20 --out out/rag
-py -m review_agent.web --port 8000
-```
-
-## 协作约定
-
-- 长期分支只有 `main`（随时可运行）与 `feat/<简述>`；修 bug 用 `fix/<简述>`。
-- 提交信息 `<type>: <一句话>`，`type` 取 feat / fix / refactor / docs / test / chore。
-- 合并用 squash；改动数据契约必须走 PR。
-
 ## 文档
 
 - 开题报告：[docs/proposal/开题报告_重写版.docx](docs/proposal/开题报告_重写版.docx)
