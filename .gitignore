@@ -1,10 +1,12 @@
-# vendored wheels (installed by tools/fetch_deps.py)
-.deps/
-# pip scratch dir
-.tmp/
-# run artifacts
-out/
-# arXiv response cache
-data/cache/
+# Python
 __pycache__/
 *.pyc
+
+# 运行产物
+out/
+
+# 临时目录
+.tmp/
+
+# 数据缓存
+data/cache/
