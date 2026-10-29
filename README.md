@@ -38,7 +38,6 @@ review_agent/
   evaluation/evaluate.py  五项指标离线评测
   web/                  标准库 HTTP + SSE 原型
   cli.py                命令行入口
-tests/test_smoke.py     骨架自检
 docs/proposal/          开题报告
 docs/slides/            开题答辩 PPT
 ```
