@@ -1,0 +1,133 @@
+{
+  "corpus": {
+    "papers": 48
+  },
+  "configs": [
+    "sparse",
+    "lsa_dense",
+    "lsa_hybrid3",
+    "bge_dense",
+    "bge_hybrid",
+    "bge_feature",
+    "bge_cross",
+    "bge_learned"
+  ],
+  "sets": {
+    "title": {
+      "sparse": {
+        "r1": 0.625,
+        "r5": 0.833,
+        "mrr": 0.708,
+        "ndcg5": 0.74,
+        "latency_ms": 0.5
+      },
+      "lsa_dense": {
+        "r1": 0.646,
+        "r5": 0.896,
+        "mrr": 0.739,
+        "ndcg5": 0.778,
+        "latency_ms": 3.0
+      },
+      "lsa_hybrid3": {
+        "r1": 0.688,
+        "r5": 0.896,
+        "mrr": 0.77,
+        "ndcg5": 0.802,
+        "latency_ms": 3.8
+      },
+      "bge_dense": {
+        "r1": 0.583,
+        "r5": 0.854,
+        "mrr": 0.692,
+        "ndcg5": 0.733,
+        "latency_ms": 6.3
+      },
+      "bge_hybrid": {
+        "r1": 0.646,
+        "r5": 0.896,
+        "mrr": 0.733,
+        "ndcg5": 0.773,
+        "latency_ms": 6.3
+      },
+      "bge_feature": {
+        "r1": 0.708,
+        "r5": 0.958,
+        "mrr": 0.81,
+        "ndcg5": 0.848,
+        "latency_ms": 7.3
+      },
+      "bge_cross": {
+        "r1": 0.646,
+        "r5": 0.833,
+        "mrr": 0.726,
+        "ndcg5": 0.754,
+        "latency_ms": 280.7
+      },
+      "bge_learned": {
+        "r1": 0.917,
+        "r5": 0.958,
+        "mrr": 0.938,
+        "ndcg5": 0.943,
+        "latency_ms": 9.0
+      }
+    },
+    "domain": {
+      "sparse": {
+        "r1": 0.667,
+        "r5": 0.767,
+        "mrr": 0.708,
+        "ndcg5": 0.677,
+        "latency_ms": 0.7
+      },
+      "lsa_dense": {
+        "r1": 0.333,
+        "r5": 0.767,
+        "mrr": 0.583,
+        "ndcg5": 0.639,
+        "latency_ms": 3.0
+      },
+      "lsa_hybrid3": {
+        "r1": 0.5,
+        "r5": 0.767,
+        "mrr": 0.639,
+        "ndcg5": 0.649,
+        "latency_ms": 3.9
+      },
+      "bge_dense": {
+        "r1": 0.833,
+        "r5": 0.733,
+        "mrr": 0.833,
+        "ndcg5": 0.725,
+        "latency_ms": 6.8
+      },
+      "bge_hybrid": {
+        "r1": 0.667,
+        "r5": 0.767,
+        "mrr": 0.708,
+        "ndcg5": 0.677,
+        "latency_ms": 6.9
+      },
+      "bge_feature": {
+        "r1": 0.667,
+        "r5": 0.767,
+        "mrr": 0.722,
+        "ndcg5": 0.684,
+        "latency_ms": 7.7
+      },
+      "bge_cross": {
+        "r1": 0.5,
+        "r5": 0.711,
+        "mrr": 0.611,
+        "ndcg5": 0.595,
+        "latency_ms": 259.6
+      },
+      "bge_learned": {
+        "r1": 0.5,
+        "r5": 0.733,
+        "mrr": 0.589,
+        "ndcg5": 0.538,
+        "latency_ms": 9.0
+      }
+    }
+  }
+}
